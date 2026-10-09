@@ -46,6 +46,4 @@ This project led to the first-author paper:
 
 ## Academic Context
 
-The project reflects my broader background in embedded systems, computer vision and applied machine learning. My current research focus is RF/mmWave IC design and VLSI/EDA.
-
-[Academic Profile](https://aryanaditta.github.io/eda-academic/) · [GitHub Profile](https://github.com/AryanAditta)
+The project reflects my broader engineering background in embedded systems, computer vision, sensing, applied machine learning and assistive technology.
