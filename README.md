@@ -1,35 +1,51 @@
-# SenseStick
+# SenseStick Navigation Aid
 
-### A Comprehensive Navigational Aid with Safety Features
+**Edge-AI assistive system for visually impaired and elderly users, combining navigation support, safety monitoring and Bangla-English accessibility features.**
 
-**SenseStick** is an assistive device designed for visually impaired and elderly individuals. It integrates:
-- Real-time **object detection** using YOLOv8 and OpenCV
-- **Health monitoring** (pulse rate, SpO2) with live transmission
-- **Fall detection** and alerting system
-- **Text-to-speech** capabilities for document reading
+SenseStick integrates embedded sensing, computer vision and audio feedback in a single assistive platform. The project includes real-time object detection, distance/direction feedback, OCR, Bangla-English speech support, health sensing and fall-detection functionality.
 
-## Features
-✔️ Obstacle detection with audio feedback  
-✔️ Remote health monitoring via web and mobile app  
-✔️ Fall detection with automatic buzzer alert  
-✔️ Text recognition for reading aloud in Bangla & English  
+## Core Capabilities
 
-## Hardware Components
+- Real-time object detection with audio feedback.
+- Direction and distance assistance for nearby objects.
+- Bangla and English text-to-speech support.
+- OCR-based document/text reading.
+- Pulse-rate and SpO₂ monitoring.
+- Fall detection and alerting.
+- Color and QR-code detection utilities.
+
+## Hardware Platform
+
 - Raspberry Pi
 - Arduino Nano
-- MPU6050 Sensor (motion detection)
-- MAX30100 Sensor (pulse & SpO2 monitoring)
-- ESP8266 Wi-Fi Module (wireless data transmission)
-- Camera Module (for object recognition)
-- Buzzer, Earphones, Rechargeable Battery
+- MPU6050 motion sensor
+- MAX30100 pulse/SpO₂ sensor
+- ESP8266 Wi-Fi module
+- Camera module
+- Buzzer, earphones and rechargeable power source
 
-## Software Stack
-- **Programming Language:** Python, C++
-- **Frameworks:** OpenCV, YOLOv8, TensorFlow
-- **Hardware Control:** Arduino IDE
-- **Wireless Communication:** ESP8266 Wi-Fi Module
-- **App Development:** Android & Web Dashboard
+## Software / Methods
 
+`Python` · `C++` · `YOLOv8` · `OpenCV` · `OCR` · `TensorFlow` · `Arduino` · `ESP8266`
 
+## Repository Guide
 
+- [`Object Detect with Direction, Distance and Audio Feedback.py`](Object%20Detect%20with%20Direction,%20Distance%20and%20Audio%20Feedback.py) — object-detection and navigation feedback pipeline.
+- [`Bangla lan.py`](Bangla%20lan.py) — Bangla-language support.
+- [`OCR.py`](OCR.py) — OCR-based text-reading component.
+- [`Colour Detection.py`](Colour%20Detection.py) — color-detection utility.
+- [`QR CODE.py`](QR%20CODE.py) — QR-code processing utility.
+- [`model/`](model/) — model assets used by the project.
+- [`Report_ECE_3200.pdf`](Report_ECE_3200.pdf) — project report.
 
+## Publication
+
+This project led to the first-author paper:
+
+**“SenseStick: A Bangla-English Edge-AI Cane for Road-Safety and Biomedical Reliability Monitoring,” IEEE BECITHCON 2026.**
+
+## Academic Context
+
+The project reflects my broader background in embedded systems, computer vision and applied machine learning. My current research focus is RF/mmWave IC design and VLSI/EDA.
+
+[Academic Profile](https://aryanaditta.github.io/eda-academic/) · [GitHub Profile](https://github.com/AryanAditta)
